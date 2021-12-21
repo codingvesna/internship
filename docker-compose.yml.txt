@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  app:
+    image: vesnam/java-two-jobs
+    container_name: java-two-jobs
+    ports:
+      - '8081:8080'
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - twojobs:/var/log
+volumes:
+  twojobs: {}
