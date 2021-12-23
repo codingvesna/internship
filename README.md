@@ -42,3 +42,7 @@ Workflow:
 An upstream job is a configured project that triggers a project as part of its execution. 
 
 A downstream job is a configured project that is triggered as part of a execution of pipeline.
+
+---
+
+Trigger build
