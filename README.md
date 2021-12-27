@@ -45,4 +45,6 @@ A downstream job is a configured project that is triggered as part of a executio
 
 ---
 
+trigger build
+
 
